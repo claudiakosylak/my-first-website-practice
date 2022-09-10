@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "Schedule a Demo"
+        </title>
+    </head>
+
+    <body>
+
+        <div class = "navBar">
+
+            <a href = "front-page.html" class = "navButtons">
+                Home
+            </a>
+
+            <a href = "demo-page.html" class = "navButtons">
+                Demo
+            </a>
+
+            <a href = "resources-page.html" class = "navButtons">
+                Resources
+            </a>
+
+            <a href = "success-stories-page.html" class = "navButtons">
+                Success Stories
+            </a>
+
+        </div>
+
+        <div class = "belowNavBar">
+
+            <form action = "destinationurl" method = "post" class = "demoForm">
+
+                <fieldset class = "demoCustomerInfo">
+
+                    <legend>Schedule a Demo</legend>
+
+                    <p id="formInstruction">Please fill out the form below and a member of our team will be in touch to schedule a demo shorly.</p>
+
+                    <div class = "customerInfoFields">
+                        <div>
+                            <label for = "firstName">First Name</label>
+                            <input type = "text" id = "firstName" name = "firstName">
+                        </div>
+
+                        <div>
+                            <label for = "lastName">Last Name</label>
+                            <input type = "text" id = "lastName" name = "lastName">
+                        </div>
+
+                        <div>
+                            <label for = "companyName">Company</label>
+                            <input type = "text" id = "companyName" name = "companyName">
+                        </div>
+
+                        <div>
+                            <label for = "email">Email Address</label>
+                            <input type = "email" id = "email" name = "email">
+                        </div>
+
+                        <div>
+                            <label for = "phone">Phone Number</label>
+                            <input type = "text" id = "phone" name = "phone">
+                        </div>
+
+                        <div>
+                            <label for = "referralSource">How did you hear about us?</label>
+                            <select id = "referralSource">
+                                <option value = "Referral">Referral</option>
+                                <option value = "Google">Google</option>
+                                <option value = "socialMedia">Social Media</option>
+                                <option value = "otherSource">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class = "extendedFormAnswers">
+
+                    <div>
+                        <label for = "mainChallenges">What are some of your main challenges with your recruitment process?</label>
+                        <textarea id = "mainChallenges" name = "mainChallenges"></textarea>
+                    </div>
+
+                    <div>
+                        <label for = "interestedFeatures">What are the features of our product you are most interested in learning more about?</label>
+                        <textarea id = "interestedFeatures" name = "interestedFeatures"></textarea>
+                    </div>
+
+                    <div>
+                        <label for = "currentSoftware">What sotware and tools do you currently use for talent acquisition?</label>
+                        <textarea id = "currentSoftware" name = "currentSoftware"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset class = "finalButtons">
+
+                    <div class = "finalChecks">
+                        <label for = "newsletter">Sign up for our newsletter:</label>
+                        <input type = "checkbox" id = "newsletter" name = "newsletter" value = "Yes">
+                    </div>
+
+                    <div class = "finalChecks">
+                        <label for = "terms">I agree to the Terms and Conditions:</label>
+                        <input type = "checkbox" id = "terms" name = "terms" value = "Yes">
+                    </div>
+
+                    <button type = "submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
