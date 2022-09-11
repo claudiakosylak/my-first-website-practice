@@ -1,0 +1,174 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+    background-color: #ED217C;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    border-top: 5px solid #2D3047;
+    border-bottom: 5px solid #2D3047;
+}
+
+.navButtons {
+    font-size: 30px;
+    color: white;
+    font-style: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 45px;
+    color: #1B998B;
+    font-style: bold;
+    text-align:center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #2D3047;
+}
+
+.bodyBlock {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF9B71;
+    margin: 20px 200px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0 70px;
+}
+
+.frontImages {
+    height: 300px;
+    width: 400px;
+}
+
+.textBlock p {
+    font-size: 30px;
+    color:#2D3047;
+}
+
+.demoForm {
+    margin: auto;
+    background-color:#FF9B71;
+    color:#2D3047;
+    margin: 0 450px;
+    border-radius: 15px;
+}
+
+#formInstruction {
+    text-align: center;
+    font-size: 20px;
+}
+
+.demoCustomerInfo {
+    display:flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.customerInfoFields {
+    width: 370px;
+}
+.customerInfoFields div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.extendedFormAnswers {
+    display: flex;
+    justify-content: center;
+}
+
+.extendedFormFields {
+    width: 370px;
+}
+
+.extendedFormFields div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+}
+
+.extendedFormFields label {
+    padding: 10px 0 10px 0;
+}
+
+
+.finalButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.checkboxes {
+    width: 370px;
+}
+
+.checkboxes div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitButton button {
+    margin-left: 200px;
+    background-color:#ED217C;
+    border-radius: 15px;
+}
+
+#resourcesDescription {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.resourcesList {
+    background-color:#FF9B71;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color:#2D3047;
+    padding: 30px 30px 30px 30px;
+}
+
+.customerLogos {
+    position:relative;
+    left: 100px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+
+
+
+}
+
+.customer p {
+    font-size: 35px;
+    color:#2D3047;
+}
+
+.customer img {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
