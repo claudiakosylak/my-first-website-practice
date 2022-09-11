@@ -31,13 +31,15 @@
 
         <div class = "belowNavBar">
 
+            <h1>
+                Schedule a Demo
+            </h1>
+
+            <p id="formInstruction">Please fill out the form below and a member of our team will be in touch to schedule a demo shorly.</p>
+
             <form action = "destinationurl" method = "post" class = "demoForm">
 
                 <fieldset class = "demoCustomerInfo">
-
-                    <legend>Schedule a Demo</legend>
-
-                    <p id="formInstruction">Please fill out the form below and a member of our team will be in touch to schedule a demo shorly.</p>
 
                     <div class = "customerInfoFields">
                         <div>
@@ -79,34 +81,38 @@
 
                 <fieldset class = "extendedFormAnswers">
 
-                    <div>
-                        <label for = "mainChallenges">What are some of your main challenges with your recruitment process?</label>
-                        <textarea id = "mainChallenges" name = "mainChallenges"></textarea>
-                    </div>
+                    <div class="extendedFormFields">
+                        <div>
+                            <label for = "mainChallenges">What are some of your main challenges with your recruitment process?</label>
+                            <textarea id = "mainChallenges" name = "mainChallenges"></textarea>
+                        </div>
 
-                    <div>
-                        <label for = "interestedFeatures">What are the features of our product you are most interested in learning more about?</label>
-                        <textarea id = "interestedFeatures" name = "interestedFeatures"></textarea>
-                    </div>
+                        <div>
+                            <label for = "interestedFeatures">What are the features of our product you are most interested in learning more about?</label>
+                            <textarea id = "interestedFeatures" name = "interestedFeatures"></textarea>
+                        </div>
 
-                    <div>
-                        <label for = "currentSoftware">What sotware and tools do you currently use for talent acquisition?</label>
-                        <textarea id = "currentSoftware" name = "currentSoftware"></textarea>
+                        <div>
+                            <label for = "currentSoftware">What sotware and tools do you currently use for talent acquisition?</label>
+                            <textarea id = "currentSoftware" name = "currentSoftware"></textarea>
+                        </div>
                     </div>
                 </fieldset>
 
                 <fieldset class = "finalButtons">
+                    <div class="checkboxes">
+                        <div>
+                            <label for = "newsletter">Sign up for our newsletter:</label>
+                            <input type = "checkbox" id = "newsletter" name = "newsletter" value = "Yes">
+                        </div>
 
-                    <div class = "finalChecks">
-                        <label for = "newsletter">Sign up for our newsletter:</label>
-                        <input type = "checkbox" id = "newsletter" name = "newsletter" value = "Yes">
+                        <div>
+                            <label for = "terms">I agree to the Terms and Conditions:</label>
+                            <input type = "checkbox" id = "terms" name = "terms" value = "Yes">
+                        </div>
                     </div>
-
-                    <div class = "finalChecks">
-                        <label for = "terms">I agree to the Terms and Conditions:</label>
-                        <input type = "checkbox" id = "terms" name = "terms" value = "Yes">
-                    </div>
-
+                </fieldset>
+                <fieldset class="submitButton">
                     <button type = "submit">Submit</button>
                 </fieldset>
             </form>

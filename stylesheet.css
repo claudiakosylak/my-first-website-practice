@@ -58,3 +58,92 @@ h2 {
     font-size: 30px;
     color:#2D3047;
 }
+
+.demoForm {
+    margin: auto;
+    background-color:#FF9B71;
+    color:#2D3047;
+    margin: 0 450px;
+    border-radius: 15px;
+}
+
+#formInstruction {
+    text-align: center;
+    font-size: 20px;
+}
+
+.demoCustomerInfo {
+    display:flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.customerInfoFields {
+    width: 370px;
+}
+.customerInfoFields div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.extendedFormAnswers {
+    display: flex;
+    justify-content: center;
+}
+
+.extendedFormFields {
+    width: 370px;
+}
+
+.extendedFormFields div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+}
+
+.extendedFormFields label {
+    padding: 10px 0 10px 0;
+}
+
+
+.finalButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.checkboxes {
+    width: 370px;
+}
+
+.checkboxes div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitButton button {
+    margin-left: 200px;
+    background-color:#ED217C;
+    border-radius: 15px;
+}
+
+#resourcesDescription {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.resourcesList {
+    background-color:#FF9B71;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color:#2D3047;
+    padding: 30px 30px 30px 30px;
+}
