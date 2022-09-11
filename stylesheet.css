@@ -147,3 +147,28 @@ fieldset {
     color:#2D3047;
     padding: 30px 30px 30px 30px;
 }
+
+.customerLogos {
+    position:relative;
+    left: 100px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+
+
+
+}
+
+.customer p {
+    font-size: 35px;
+    color:#2D3047;
+}
+
+.customer img {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
